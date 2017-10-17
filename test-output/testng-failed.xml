@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestAll]">
+  <parameter name="driver" value="driver"/>
+  <test name="case1(failed)">
+    <classes>
+      <class name="baidu.Baidu">
+        <methods>
+          <include name="baiduSearch"/>
+        </methods>
+      </class> <!-- baidu.Baidu -->
+    </classes>
+  </test> <!-- case1(failed) -->
+</suite> <!-- Failed suite [TestAll] -->
